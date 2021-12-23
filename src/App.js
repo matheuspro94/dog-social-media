@@ -1,7 +1,9 @@
+import './App.css'
+
 function App() {
   return (
     <div>
-     App react 
+      <h1>Funcionou</h1>
     </div>
   );
 }
