@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import Input from '../Forms/Input';
 import Button from '../Forms/Button';
 import useForm from '../../Hooks/useForm';
+import Error from '../Helper/Error';
 import { UserContext } from '../../UserContext';
 
 const LoginForm = () => {
@@ -20,13 +21,13 @@ const LoginForm = () => {
   }
 
   return (
-    <section> 
-      <h1>Login</h1>
+    <section className="animeLeft"> 
+      <h1 className='title'>Login</h1>
       <form action="" onSubmit={ handleSubmit }>
         <Input label='Usuário' type='text' name='username' { ...username } />
         <Input label='Senha' type='password' name='password' { ...password} />
         { loading ? <Button disabled>Carregando...</Button> : <Button>Entrar</Button>}
-        { error && <span>{ error }</span>}
+        <Error error={ error } />
       </form>
       <Link to="/login/criar">Cadastro</Link>
     </section>
