@@ -1,8 +1,7 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-
-import styles from './PhotoContent.module.css'
-import PhotoComments from './PhotoComments'
+import React from 'react';
+import styles from './PhotoContent.module.css';
+import { Link } from 'react-router-dom';
+import PhotoComments from './PhotoComments';
 
 const PhotoContent = ({ data }) => {
   const { photo, comments } = data;
@@ -31,4 +30,4 @@ const PhotoContent = ({ data }) => {
   );
 };
 
-export default PhotoContent
+export default PhotoContent;

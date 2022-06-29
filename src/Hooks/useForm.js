@@ -13,7 +13,7 @@ const types = {
   number: {
     regex: /^\d+$/,
     message: 'Utilize números apenas.',
-  }
+  },
 };
 
 const useForm = (type) => {

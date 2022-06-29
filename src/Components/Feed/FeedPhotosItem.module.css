@@ -21,9 +21,9 @@
   grid-area: 1/1;
 }
 
-.photo .visualizacao {
+.visualizacao {
   background: rgba(0, 0, 0, 0.3);
-  color: #fff;
+  color: white;
   font-size: 1rem;
   text-align: center;
   align-items: center;
@@ -35,10 +35,10 @@
 .visualizacao::before {
   width: 16px;
   height: 10px;
-  content: "";
+  content: '';
   display: inline-block;
   margin-right: 0.25rem;
-  background: url("../../Assets/visualizacao.svg") no-repeat;
+  background: url('../../Assets/visualizacao.svg') no-repeat;
 }
 
 .photo:hover .visualizacao {
