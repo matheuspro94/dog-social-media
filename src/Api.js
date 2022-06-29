@@ -88,7 +88,6 @@ export function COMMENT_POST(id, body) {
     url: `${API_URL}/api/comment/${id}`,
     options: {
       method: 'POST',
-      cache: 'no-store',
       headers: {
         'Content-Type': 'application/json',
         Authorization: 'Bearer ' + window.localStorage.getItem('token'),
@@ -97,5 +96,3 @@ export function COMMENT_POST(id, body) {
     },
   };
 }
-
-
