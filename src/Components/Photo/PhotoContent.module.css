@@ -29,7 +29,7 @@
 }
 
 .single .details {
-  padding: 1rem 0 0 0;
+  padding: 1rem 0px 0px 0px;
 }
 
 .img {
@@ -67,12 +67,12 @@
 }
 
 .visualizacoes::before {
-  content: "";
+  content: '';
   display: inline-block;
   width: 16px;
   height: 10px;
   margin-right: 0.5rem;
-  background: url("../../Assets/visualizacao-black.svg");
+  background: url('../../Assets/visualizacao-black.svg');
 }
 
 .attributes {
@@ -88,7 +88,7 @@
 }
 
 .attributes li::before {
-  content: "";
+  content: '';
   display: inline-block;
   height: 20px;
   margin-right: 0.5rem;

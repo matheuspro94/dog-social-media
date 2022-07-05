@@ -1,6 +1,6 @@
 .delete {
   background: #ddd;
-  padding: 0.3rem;
+  padding: 0.3rem 0.6rem;
   line-height: 1;
   border: 1px solid transparent;
   font-size: 0.875rem;
@@ -13,8 +13,7 @@
 .delete:focus,
 .delete:hover {
   outline: none;
-  border-color: #fb1;
-  color: #fb1;
   background: white;
-  box-shadow: 0 0 0 3px #fea;
+  box-shadow: 0 0 0 3px #eee;
+  border-color: #333;
 }
