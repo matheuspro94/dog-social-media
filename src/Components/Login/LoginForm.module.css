@@ -10,7 +10,7 @@
 }
 
 .perdeu::after {
-  content: '';
+  content: "";
   height: 2px;
   width: 100%;
   background: currentColor;
@@ -19,6 +19,7 @@
 
 .cadastro {
   margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 .cadastro p {
@@ -33,7 +34,7 @@
 }
 
 .subtitle::after {
-  content: '';
+  content: "";
   display: block;
   background: #ddd;
   height: 0.5rem;
