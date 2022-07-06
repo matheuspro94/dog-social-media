@@ -1,12 +1,14 @@
 import React from 'react';
 import styles from './Footer.module.css';
-import { ReactComponent as Dogs } from '../Assets/dogs-footer.svg'
+import { ReactComponent as Dogs } from '../Assets/dogs-footer.svg';
 
 const Footer = () => {
-  return <footer className={styles.footer}>
-    <Dogs />
-    <p>Dogs - Projeto feito com o curso da Origamid - Usando ReactJS.</p>
-  </footer>;
+  return (
+    <footer className={styles.footer}>
+      <Dogs />
+      <p>Dogs. Alguns direitos reservados.</p>
+    </footer>
+  );
 };
 
 export default Footer;
